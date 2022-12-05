@@ -1,7 +1,27 @@
-.left{
-    padding-left: 20px;
+body{
+    display: flex;
+    background-color: rgb(201, 201, 201);
+    margin: 0px;
+    /* gap: ; */
 }
 
+
+nav{
+    flex-direction: row;
+    border: 1px solid silver;
+    padding-right: 50px;
+    background-color: white;
+    height: 600px;
+    width: 15%;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+
+.insta_logo{
+    padding-top: 50px;
+}
 
 
 .home{
@@ -80,4 +100,56 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     gap:20px;
     font-size: 16px;
+}
+
+main{
+    /* display: flex; */
+}
+
+.main_top{
+    /* float: left; */
+    display: flex;
+    align-items: stretch;
+    background-color: white;
+    margin-left: 500px;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 20px;
+
+    justify-items:auto;
+}
+
+#deebee{
+    width: 66px;
+    height: 66px;
+}
+
+#car{
+    width: 66px;
+    height: 66px;
+}
+
+#gown{
+    width: 66px;
+    height: 66px;
+}
+
+#phones{
+    width: 66px;
+    height: 66px;
+    gap: 5px;
+}
+
+#watches{
+    width: 66px;
+    height: 66px;
+}
+
+.circle_images img{
+    width: 66px;
+    height: 66px;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, rgb(207, 6, 222), orange) border-box;
+    border-radius: 50%;
+    border: 2px solid transparent;
 }
