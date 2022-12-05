@@ -190,7 +190,6 @@ main{
 
 .topmost h4 {
     font-size: 16px;
-    /* margin-right: 110px; */
     font-style: inherit;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -209,4 +208,70 @@ main{
 
 .mid img{
     width:493px;
+}
+
+.footer{
+    background-color: white;
+    border: 1px solid silver;
+    margin-top: 0px;
+
+}
+
+.footer_images{
+    padding-top: 20px;
+}
+
+.footer p{
+    padding-left: 20px;
+}
+
+.footer p:nth-of-type(1){
+    font-size: 16px;
+    margin-top: 10px;
+    font-style: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer p:nth-of-type(2){
+    font-size: 15px;
+    margin-top: 10px;
+    font-style: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer span:nth-of-type(2){
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 5px;
+    color: rgb(135, 206, 235);
+}
+
+.footer span:nth-of-type(3){
+    font-size: 14px;
+    font-weight: 400;
+    color: #8E8E8E;
+}
+
+.footer p:nth-of-type(3){
+    font-size: 15px;
+    margin-top: 10px;
+    font-style: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #8E8E8E;
+}
+
+.footer p:nth-of-type(4){
+    font-size: 15px;
+    margin-top: 10px;
+    font-style: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #8E8E8E;
+}
+
+.little{
+    padding-left:20px;
+}
+
+#activities{
+    margin-left: 300px;
 }
