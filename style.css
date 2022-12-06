@@ -208,12 +208,17 @@ main{
 
 .mid img{
     width:493px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
 }
 
 .footer{
     background-color: white;
     border: 1px solid silver;
     margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top:0px;
 
 }
 
@@ -274,4 +279,38 @@ main{
 
 #activities{
     margin-left: 300px;
+}
+
+.emoji{
+    width: 460px;
+    height: 40px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+    background-color: white;
+    border: 1px solid silver;
+    border-radius: 0 0 8px 8px;
+}
+
+.emoji_div{
+    display: flex;
+    align-items: center;
+}
+
+.emoji_div textarea{
+    margin-left: 20px;
+    border: none;
+    color: #262626;
+    font-size: 14px;
+    font-weight: 400px;
+}
+
+.second_emoji_div{
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: lightskyblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
