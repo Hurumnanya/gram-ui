@@ -102,10 +102,6 @@ nav{
     font-size: 16px;
 }
 
-main{
-    /* display: flex; */
-}
-
 .main_top{
     display: flex;
     align-items: stretch;
@@ -188,22 +184,30 @@ main{
     border-radius: 8px 8px 0 0;
 }
 
-.topmost h4 {
-    font-size: 16px;
+.topmost p {
+    font-size: 14px;
+    color: #262626;
+    font-weight:500;
     font-style: inherit;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
 #ingressivelogo{
+    padding-left: 1px;
+    padding-right: 1px;
+    width: 30px;
     height: 30px;
-    width:30px;
-    padding-left: 10px;
-    padding-right: 20px;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, rgb(207, 6, 222), orange) border-box;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    margin-left: 10px;
+    margin-right: 20px;
 }
 
 #topmost_second_img{
-    margin-left: 290px;
+    margin-left: 260px;
 }
 
 .mid img{
@@ -313,4 +317,36 @@ main{
     text-decoration: none;
     color: lightskyblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.second_main_bottom{
+    margin-top: 20px;
+}
+
+#bbclogo{
+    width:30px;
+    height: 30px;
+    padding-left: 1px;
+    padding-right: 1px;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, rgb(207, 6, 222), orange) border-box;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#bbcspan{
+    font-size: 15px;
+    margin-top: 10px;
+    font-style: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#bbcspan2{
+    font-size: 15px;
+    margin-top: 10px;
+    font-style: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #8E8E8E;
 }
